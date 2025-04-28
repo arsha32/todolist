@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.head {
+  background-color: blueviolet;
+}
+.head h1 {
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+h3,
+h4 {
+  color: blueviolet;
+  line-height: 2;
+  text-align: center;
+}
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.styled-table thead {
+  background-color: blueviolet;
+  color: #ffffff;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.styled-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.btn-delete {
+  background-color: #6f42c1;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-delete:hover {
+  background-color: #5a32a3;
+}
+
+form {
+  margin: 0;
+}
+.foot {
+  position: absolute;
+  background-color: blueviolet;
+  width: 100%;
+  margin-top: 100px;
+}
+.foot h3 a,
+.foot h3 {
+  padding-top: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+.foot1 {
+  color: #fff;
+  margin-bottom: 150px;
+}
