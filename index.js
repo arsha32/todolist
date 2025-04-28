@@ -6,10 +6,10 @@ const location = dirname(fileURLToPath(import.meta.url));
 const app = express();
 const postdb = new Client({
   connectionString:
-    "postgresql://postgres:GNnDFR6hbxMxu1AB@db.czffmxxxvpbnxxywbuli.supabase.co:5432/postgres",
+    "postgresql://postgres.czffmxxxvpbnxxywbuli:GNnDFR6hbxMxu1AB@aws-0-ap-south-1.pooler.supabase.com:5432/postgres",
   ssl: {
     rejectUnauthorized: false,
-  },
+  }
 });
 postdb.connect();
 app.use(express.urlencoded({ extended: true }));
